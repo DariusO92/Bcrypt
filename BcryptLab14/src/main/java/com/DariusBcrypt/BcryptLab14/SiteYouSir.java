@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class SiteUser {
+public class SiteYouSir {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
@@ -14,7 +14,7 @@ public class SiteUser {
     private String userName;
     private String password;
 
-    public SiteUser(String userName, String password) {
+    public SiteYouSir(String userName, String password) {
         this.userName = userName;
         this.password = password;
     }
